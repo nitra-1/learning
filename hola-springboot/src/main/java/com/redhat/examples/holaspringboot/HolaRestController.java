@@ -18,6 +18,6 @@ public class HolaRestController {
 		} catch (UnknownHostException e) {
 			hostname = "unknown";
 		}
-		return "Hello Spring Boot!! " + hostname;
+		return "Hello Spring Boot!!! " + hostname;
 	}
 }
